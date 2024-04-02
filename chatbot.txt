@@ -1,0 +1,23 @@
+The chatbot operates by processing user queries related to financial data analysis and providing predefined responses based on the content of the queries. It supports extraction of company names and years from user input and uses this information to query the financial dataset. The chatbot can respond to predefined queries such as total revenue, net income, net income trends, and profitability metrics for specific companies and years.
+
+Example Queries:
+
+Please enter your query: What is total revenue for Microsoft in F21?
+The total revenue for Microsoft in F21 was 168088.0.
+                           
+Please enter your query: How has net income changed over the last year for Tesla in F22?
+The net income for Tesla in F22 was 12587.0.
+
+Please enter your query: What was profitability metrics for Apple in F23?
+The profitability metrics for Apple are as follows: 0.2530623426432028
+
+Please enter your query: What is the trend of net income for Tesla in F22?     
+The net income for Tesla in F22 was 12587.0.
+
+Limitations:
+
+1. Dummy Data: The chatbot uses placeholder data and querying functions for demonstration purposes. Actual integration with a financial dataset and querying mechanism would be necessary for real-world usage.
+2. Limited Query Understanding: The chatbot's ability to understand user queries is limited to predefined patterns. It may struggle with complex or ambiguous queries not covered by these patterns.
+3. Static Responses: Responses are predefined and not dynamic or contextual. They do not adapt based on the specific characteristics of the financial data or user context.
+4. No Error Handling: The chatbot lacks robust error handling mechanisms for cases such as invalid user input or failure to retrieve data from the dataset.
+
